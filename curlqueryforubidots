@@ -1,0 +1,29 @@
+niravpiflowsensordata
+593762897625425160292495
+YrrR0K4MtS4gdEjXXGfRaNSnsWjCh7
+
+
+addce00c02415853856a772100e7f6fdc9bcad2f
+
+YrrR0K4MtS4gdEjXXGfRaNSnsWjCh7
+
+
+curl -X POST -H "Content-Type:application/json" -d '{"value":29.7,}'
+
+
+
+
+--To generate token
+
+curl -X POST "http://things.ubidots.com/api/v1.6/auth/token" -H "X-Ubidots-ApiKey: addce00c02415853856a772100e7f6fdc9bcad2f"
+
+-- To push data to device variable
+curl -X POST -H "Content-Type: application/json" -d '{"littersread": {"value":40},"timeslot":{"value":40000}}' http://things.ubidots.com/api/v1.6/devices/niravpiflowsensordata?token=YrrR0K4MtS4gdEjXXGfRaNSnsWjCh7
+
+
+
+
+
+littersread
+
+timeslot
