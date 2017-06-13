@@ -11,7 +11,7 @@ except:
 pulses = 0
 liters = 581984
 
-APIKEY="YrrR0K4MtS4gdEjXXGfRaNSnsWjCh7" # Replace with your APIKEY
+APIKEY="YrrR0K4MtS4gdEjXXGfRaNSnsWjCh" # Replace with your APIKEY
 DEVICE = "NiravIOTPi@niravjoshi.niravjoshi" # Replace with the id_developer of your devices
 
 class ClientAPIDataPush(object):
